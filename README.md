@@ -1,8 +1,14 @@
-# Omakub
+# Omador (Omakub but for Fedora)
 
 Turn a fresh Ubuntu installation into a fully-configured, beautiful, and modern web development system by running a single command. That's the one-line pitch for Omakub. No need to write bespoke configs for every essential tool just to get started or to be up on all the latest command-line tools. Omakub is an opinionated take on what Linux can be at its best.
 
 Watch the introduction video and read more at [omakub.org](https://omakub.org).
+
+## Installation
+```bash
+sudo curl -fsSL https://raw.githubusercontent.com/imanismailbox/omador/master/boot.sh | bash
+```
+
 
 ## Contributing to the documentation
 
