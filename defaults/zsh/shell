@@ -1,0 +1,16 @@
+# History control (Zsh)
+setopt APPEND_HISTORY
+setopt HIST_IGNORE_DUPS
+setopt HIST_IGNORE_SPACE
+HISTSIZE=32768
+SAVEHIST=${HISTSIZE}
+
+# Autocompletion (Zsh)
+autoload -Uz compinit
+compinit
+
+# Set complete path
+export PATH="$HOME/.config/composer/vendor/bin:$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH"
+set +h
+
+export OMADOR_PATH="/home/$USER/.local/share/omador"

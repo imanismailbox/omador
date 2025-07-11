@@ -1,0 +1,4 @@
+#!/bin/bash
+
+source $OMADOR_PATH/bin/omador-sub/header.sh
+source $OMADOR_PATH/bin/omador-sub/menu.sh

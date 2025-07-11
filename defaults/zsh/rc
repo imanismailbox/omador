@@ -1,0 +1,4 @@
+source ~/.mydotfiles/configs/zsh/shell
+source ~/.mydotfiles/configs/zsh/aliases
+source ~/.mydotfiles/configs/zsh/functions
+source ~/.mydotfiles/configs/zsh/init
