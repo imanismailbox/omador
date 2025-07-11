@@ -20,7 +20,7 @@ Comment=Android Screen Mirroring
 Exec=scrcpy -S
 Terminal=false
 Type=Application
-Icon=/home/$USER/.local/share/fedomakub/applications/icons/Android.png
+Icon=/home/$USER/.local/share/omador/applications/icons/Android.png
 Categories=GTK;
 StartupNotify=false
 EOF

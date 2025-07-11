@@ -17,7 +17,7 @@ sudo dnf install -y git >/dev/null
 
 echo "Cloning Omador..."
 rm -rf ~/.local/share/omador
-git clone https://github.com/imanismailbox/omakub.git ~/.local/share/omador >/dev/null
+git clone https://github.com/imanismailbox/omador.git ~/.local/share/omador >/dev/null
 # if [[ $OMADOR_REF != "master" ]]; then
 # 	cd ~/.local/share/omador
 # 	git fetch origin "${OMADOR_REF:-stable}" && git checkout "${OMADOR_REF:-stable}"
