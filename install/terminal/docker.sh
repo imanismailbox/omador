@@ -5,7 +5,7 @@ sudo dnf-3 config-manager --add-repo https://download.docker.com/linux/fedora/do
 # Install Docker engine and standard plugins
 sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-sudo groupadd docker
+# sudo groupadd docker
 
 # Give this user privileged Docker access
 sudo usermod -aG docker $USER
